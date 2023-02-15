@@ -1,0 +1,21 @@
+body {
+	background-color: #1F1C16;
+	color: #FFEEDD;
+	font-family: 'Roboto'
+}
+
+h2, h3, p, div { text-align: center; }
+
+.auto-margin {
+	max-width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../roboto-v30-latin-regular.woff2') format('woff2');
+}
