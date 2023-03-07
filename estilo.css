@@ -7,7 +7,7 @@ body {
 h2, h3, p, div { text-align: center; }
 
 .auto-margin {
-	max-width: 480px;
+	max-width: 540px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -17,5 +17,18 @@ h2, h3, p, div { text-align: center; }
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url('../roboto-v30-latin-regular.woff2') format('woff2');
+  src: url('roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+.grid {
+	display: grid;
+	grid-template-rows: auto auto;
+	grid-template-columns: auto auto auto auto auto;
+	gap: 10px;
+}
+
+.tabuada {
+	background-color: #FFFFFF12;
+	border-radius: 20px;
+	padding: 10px;
 }
