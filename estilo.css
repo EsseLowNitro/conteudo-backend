@@ -1,7 +1,8 @@
 body {
 	background-color: #1F1C16;
 	color: #FFEEDD;
-	font-family: 'Roboto'
+	font-family: 'Roboto';
+	font-size: small;
 }
 
 h2, h3, p, div { text-align: center; }
