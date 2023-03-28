@@ -5,7 +5,13 @@ body {
 	font-size: small;
 }
 
-h2, h3, p, div { text-align: center; }
+h1, h2, h3, h4, p, div { text-align: center; }
+h1 { color: #E7C859 }
+p { border-radius: 20px; }
+a { color: #FFDDBB; }
+
+input { border-radius: 20px; padding-left: 7px; height: 3vh; border: 0; margin-top: 5px; }
+button {border-radius: 10px; padding: 4px; border: 0; }
 
 .auto-margin {
 	max-width: 540px;
@@ -33,3 +39,5 @@ h2, h3, p, div { text-align: center; }
 	border-radius: 20px;
 	padding: 10px;
 }
+
+.transparencia { background-color: #FFEEBB17; }

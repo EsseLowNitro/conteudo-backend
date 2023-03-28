@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../estilo.css">
+		<title>matrizes</title>
+	</head>
+	<body><div class="auto-margin">
+		<h2>matrizes</h2>
+		<p>você está na matrix</p>
+		<sub><sup><a href="https://matrix.org/">https://matrix.org/</a></sup></sub><br>
+
+		<br><hr>
+
+		<p>uma matriz é essencialmente um vetor que armazena vetores em si.</p>
+
+		<hr><br>
+
+		<p class="transparencia">
+			<table id="produtos" style="border: 0.288vh solid; border-radius: 20px; width: 100%; height: 100%;"></table>
+		</p>
+
+		<script type="text/javascript" defer>
+			let tabela = document.querySelector("#produtos");
+
+			function inserirLinha() {
+				documentWrite("haha");
+			};
+
+			let linha = tabela.insertRow();
+			let celTipo = linha.insertCell();
+			let celMarca = linha.insertCell();
+			let celModelo = linha.insertCell();
+			let celPreco = linha.insertCell();
+
+			celTipo.innerHTML = "a";
+			celMarca.innerHTML = "b";
+			celModelo.innerHTML = "c";
+			celPreco.innerHTML = "d";
+		</script>
+	</div></body>
+</html>
